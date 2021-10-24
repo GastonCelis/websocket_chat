@@ -1,0 +1,90 @@
+.seccionProductos{
+    background-color: rgb(34, 34, 51);
+    border-radius: 20px;
+    color: white;
+    padding: 1em;
+    margin-top: 8em;
+}
+
+.tablaProductos{
+    color: white;
+}
+
+.seccionChat{
+    background-color: rgb(194, 194, 194);
+    border-radius: 20px;
+    padding: 1em;
+    margin-top: 8em;
+    margin-bottom: 8em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mensajes{
+    overflow-y: auto;
+    height: 200px;
+    width: 100%;
+}
+
+.mensajes::-webkit-scrollbar{
+    background-color: rgb(194, 194, 194);
+}
+
+.mensajes::-webkit-scrollbar-thumb{
+    background-color: white;
+    border-radius: 15px;
+}
+
+.email{
+    color: blue;
+}
+
+.fecha{
+    color: rgb(145, 91, 38);
+}
+
+.letraMensaje{
+    color: green;
+}
+
+.burbujaChat{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px 10px 10px 0;
+    width: max-content;
+    margin: 1em;
+    padding: 1em;
+}
+
+.formularioChat{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.inputEmail, .inputMensaje, .inputEnviar{
+    width: 15%;
+    height: 100px;
+    border-radius: 10px;
+    border: solid 2px black;
+    margin: 0.5em;
+}
+
+.inputMensaje{
+    width: 70%;
+}
+
+.inputEnviar{
+    width: 10%;
+    transition: all 400ms;
+}
+
+.inputEnviar:hover{
+    background-color: rgb(139, 139, 139);
+    transition: all 400ms;
+}
+
